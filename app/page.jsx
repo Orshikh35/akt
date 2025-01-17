@@ -5,9 +5,9 @@ import Footer from "./components/Footer";
 export default function All() {
   return (
     <div className="flex justify-center items-center flex-col">
-      <Navbar />
+      {/* <Navbar /> */}
       <Home />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -6,9 +6,9 @@ import Footer from "../components/Footer";
 function page() {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Org />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

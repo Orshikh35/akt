@@ -6,9 +6,9 @@ import OrgDetail from './_components/OrgDetail'
 function page() {
   return (
     <div>
-        <Navbar/>
+        {/* <Navbar/> */}
         <OrgDetail/>
-        <Footer />
+        {/* <Footer /> */}
     </div>
   )
 }

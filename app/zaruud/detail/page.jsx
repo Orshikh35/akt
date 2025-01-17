@@ -6,9 +6,9 @@ import Detail from './_components/Detail'
 function page() {
   return (
     <div>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Detail/>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }
