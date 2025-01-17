@@ -1,7 +1,14 @@
 import React from 'react';
 import Uni from '../_assets/Unitel.png'
 import Icon from '../_assets/bo.png'
+import { useRouter } from "next/navigation"; // Import useRouter from Next.js
 const FeaturedOrganizations = () => {
+
+  const router = useRouter();  // Initialize useRouter
+  const handleNavigation = (path) => {
+    router.push(path);  // Navigate to the specified path
+  };
+
   const listings = [
     {
       id: 1,
@@ -86,8 +93,8 @@ const FeaturedOrganizations = () => {
         ))}
       </div>
       
-      <div className="flex justify-center items-center mt-12">
-      <button className="w-[155px] h-[40px] rounded-[50px] text-[#161616] text-[16px] font-semibold border-[1px] border-[#6E7175]">
+      <div className="flex justify-center items-center mt-12 ">
+      <button  onClick={() => handleNavigation('/special')}  className="w-[155px] h-[40px] rounded-[50px] text-[#161616] text-[16px] font-semibold border-[1px] border-[#6E7175]">
         Бүгдийг харах
       </button>
     </div>

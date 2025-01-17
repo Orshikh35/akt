@@ -12,14 +12,12 @@ import FeaturedOrganizations from "./_components/FeaturedOrganizations";
 export default function Home() {
   return (
     <div className="flex justify-center items-center flex-col">
-      <Navbar/>
      <Hero/>
      <SearchPart/>
      <Posts/>
      <FeaturedOrganizations/> 
      <Call/>
      <Comments/>
-     <Footer/>
     </div>
   );
 }
